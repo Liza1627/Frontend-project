@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0 none;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 1rem;
+  font-family: "Exo", sans-serif;
+  font-weight: 100;
+}
+.cont-slider {
+  position: relative;
+  height: 100vh;
+  max-height: 100vh;
+  width: auto;
+  min-width: 100vw;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.slider {
+  animation: sliding 25s ease-out 0s backwards infinite;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 500%;
+  height: 100%;
+}
+.slide {
+  display: inline-block;
+  position: relative;
+  width: 20%;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+.slide span {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 0 5vh 5vh 0;
+  color: #fff;
+  position: absolute;
+  left: 0;
+  top: 40vh;
+  font-size: 20vh;
+  line-height: 20vh;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  border-left: 0 none;
+}
+.one {
+  background-image: url(https://i.pinimg.com/736x/72/d7/5c/72d75cf63786754fcde363d5cc624376.jpg);
+}
+.two {
+  background-image: url(https://lh3.googleusercontent.com/proxy/nYyJ-3WWSYNFacLku1OEbhGyIx_Bz2LQEHYgpvTci1TME6949NkR-kEdUUJjNmNQCaH5ij4EEgnwM3zYGeJD7LIZnHu4ogAobi6gSgEyszuRaKXlYGyXMrQXuBNHlg);
+}
+.three {
+  background-image: url(https://hips.hearstapps.com/hmg-prod/images/pomegranate-1558625011.jpg?crop=1xw:1xh;center,top&resize=640:*);
+}
+.four {
+  background-image: url(https://www.foodbox.co.nz/cdn/shop/products/BA-2_a8a018ca-4738-4854-ba32-c9f07ea5c9e8.jpg?v=1679869850);
+}
+.five {
+  background-image: url(https://i.ndtvimg.com/i/2017-02/fruits-and-vegetables_650x366_41486465566.jpg?im=FaceCrop,algorithm=dnn,width=345,height=250);
+}
+
+@keyframes sliding {
+  0% {
+    left: 0%;
+  }
+  15% {
+    left: 0%;
+  }
+  20% {
+    left: -100%;
+  }
+  35% {
+    left: -100%;
+  }
+  40% {
+    left: -200%;
+  }
+  55% {
+    left: -200%;
+  }
+  60% {
+    left: -300%;
+  }
+  75% {
+    left: -300%;
+  }
+  80% {
+    left: -400%;
+  }
+  95% {
+    left: -400%;
+  }
+  100% {
+    left: 0;
+  }
+}

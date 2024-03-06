@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden
+};
+
+.container {
+    width: 100%;
+    outline: 1px solid red;
+   
+}
+
+.sectionContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    background-color: #FFFFFF;
+    outline: 1px solid black;
+    border-radius: 4px;
+    padding: 8px;
+    cursor: pointer;
+    border-color: transparent;
+}
+
+.calcSection {
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+
+.calcSection input {
+    height: 20px;
+    width: 80%;
+    margin-bottom: 10px;
+    outline: none;
+    padding: 2px 4px;
+}
+
+.addBtn {
+    background-color: #FFFFFF;
+    outline: 1px solid black;
+    border-radius: 4px;
+    padding: 8px;
+    width: 80px;
+    cursor: pointer;
+    border-color: transparent;
+    margin-bottom: 10px;
+}
+
+.totalSum {
+    height: 40px;
+}
+
+
+

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+};
+
+.container {
+    width: 100%;
+    margin: auto;
+    outline: 1px solid red;
+}
+
+.navContainer {
+    padding: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navContainer a {
+    text-decoration: none;
+    color: #000000;
+    padding: 8px 16px;
+}
+
+.navContainer a:hover {
+    color: #CCCCCC;
+}
+
+.navFont {
+    font-size: 1rem;
+}
+
+.sectionContainer {
+    padding: 0px 12px;
+    margin-top: 20px;
+}
+
+.headerContainer {
+    padding: 0 8px;
+}
+
+.description {
+    padding: 0 8px;
+    margin-top: 8px;
+}
+
+.description p {
+    font-size: 0.625rem;
+}
+
+.description .imageContainer {
+    margin-top: 10px;
+    width: 300px;
+    height: 200px;
+}
+
+.imageContainer img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.formSection {
+    padding: 0 8px;
+    margin-top: 8px;
+}
+
+.formSection form {
+    display: flex;
+    align-items: center;
+}
+
+.labelStyle {
+    font-size: 0.625rem;
+    margin-right: 12px;
+}
+
+.inputStyle {
+   outline: none;
+   padding: 0 4px;
+   margin-right: 10px;
+}
+
+.btn {
+    font-size: 0.625rem;
+    padding: 2px;
+    cursor: pointer;
+}
